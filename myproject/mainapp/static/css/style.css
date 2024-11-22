@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+.text{
+    position: relative;
+    max-width: 100%;
+    height: auto;
+
+}
+
+.text_1 h1{
+    display: flex;
+    justify-content: start;
+    font-family: "Jura", sans-serif;
+    font-size: 50px;
+    padding-left: 20px;
+    padding-top: 10px;
+
+}
+
+.text_2 h1{
+    display: flex;
+    justify-content: center;
+    font-family: "Jura", sans-serif;
+    font-size: 30px;
+    padding-top:30px;
+    padding-right:30px ;
+}
+
+.text_3 h1{
+    display: flex;
+    justify-content: end;
+    font-family: "Jura", sans-serif;
+    font-size: 40px;
+    padding-right: 30px;
+}
+
+.poloska_1 {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+.footer_logo{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+    margin: 30px;
+}
+
+.footer_logo a{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+}

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1000">
+    <title>Beautiful Samarqand</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="shortcut icon" href="{% static 'icon/logo.svg' %}" type="image/x-icon">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');</style>
+</head>
+<body>
+{% include 'header.html' %}
+{% block content %}
+{% endblock %}
+{% include 'footer.html' %}
+</body>
+</html>
